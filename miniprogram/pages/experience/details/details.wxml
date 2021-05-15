@@ -1,0 +1,30 @@
+<view wx:if="{{index==1}}">
+  <view class="title3"  style="position:fixed; top:30px;left:23px">1号轴承报表</view>
+  <image src="/images/1.png" class="echartContainer"> </image>
+</view>
+
+
+<view wx:if="{{index==3}}">
+  <view class="title3"  style="position:fixed; top:30px;left:23px">3号轴承报表</view>
+  <image src="/images/3.png" class="echartContainer"> </image>
+</view>
+
+<view wx:if="{{index==4}}">
+  <view class="title3"  style="position:fixed; top:30px;left:23px">4号轴承报表</view>
+  <image src="/images/4.png" class="echartContainer"> </image>
+</view>
+
+<view wx:if="{{index==5}}">
+  <view class="title3"  style="position:fixed; top:30px;left:23px">5号轴承报表</view>
+  <image src="/images/5.png" class="echartContainer"> </image>
+</view>
+
+<view wx:if="{{index==6}}">
+  <view class="title3"  style="position:fixed; top:30px;left:23px">6号轴承报表</view>
+  <image src="/images/6.png" class="echartContainer"> </image>
+</view>
+
+<view wx:if="{{index==9}}">
+  <view class="title3"  style="position:fixed; top:30px;left:23px">9号轴承报表</view>
+  <image src="/images/9.png" class="echartContainer"> </image>
+</view>

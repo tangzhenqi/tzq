@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="/images/back.jpg" style="width:100%"></image>
+</view>
+
+<button bindtap="navToPre" class='btn1'>点击查看运行情况统计报表</button>
+
+<view style="position:fixed;buttom:0px;left:65px" class="val">
+    <input class="btn2" placeholder="请输入要查看的轴承编号" bindblur='btp'></input>
+    <button bindtap="submit">查看详细情况</button>
+</view>

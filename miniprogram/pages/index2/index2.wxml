@@ -1,0 +1,240 @@
+<view class='box1'>
+    <view class="title3"> Now:{{time}}</view>
+</view>
+<!-- 下面的每一个circle模块，表示了一个圆的三种显示状态，分别为正常、故障、处理中,一共12个圆组件 -->
+<view class='container1'>  
+  <view class='circleContainer'>
+    <view class="circle" bindtap='btn1'>                    
+      <view class="innerCircle1" wx:if="{{labels1[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">1</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels1[k]==1||labels1[k]==2||labels1[k]==3||labels1[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">1</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">1</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+
+    <view class="circle" bindtap='btn2'>
+      <view class="innerCircle1" wx:if="{{labels2[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">2</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels2[k]==1||labels2[k]==2||labels2[k]==3||labels2[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">2</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">2</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+  
+    <view class="circle" bindtap='btn3'>
+      <view class="innerCircle1" wx:if="{{labels3[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">3</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels3[k]==1||labels3[k]==2||labels3[k]==3||labels3[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">3</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">3</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+
+</view>
+</view>  
+
+<view class='container1'>
+  <view class='circleContainer'>
+    <view class="circle" bindtap='btn4'>
+      <view class="innerCircle1" wx:if="{{labels4[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">4</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels4[k]==1||labels4[k]==2||labels4[k]==3||labels4[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">4</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">4</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+
+    <view class="circle" bindtap='btn5'>
+      <view class="innerCircle1" wx:if="{{labels5[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">5</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels5[k]==1||labels5[k]==2||labels5[k]==3||labels5[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">5</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">5</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+  
+    <view class="circle" bindtap='btn6'>
+      <view class="innerCircle1" wx:if="{{labels6[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">6</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels6[k]==1||labels6[k]==2||labels6[k]==3||labels6[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">6</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">6</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+
+</view>
+</view>  
+
+
+<view class='container1'>
+  <view class='circleContainer'>
+    <view class="circle" bindtap='btn7'>
+      <view class="innerCircle1" wx:if="{{labels7[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">7</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels7[k]==1||labels7[k]==2||labels7[k]==3||labels7[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">7</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">7</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+
+    <view class="circle" bindtap='btn8'>
+      <view class="innerCircle1" wx:if="{{labels8[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">8</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels8[k]==1||labels8[k]==2||labels8[k]==3||labels8[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">8</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">8</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+  
+    <view class="circle" bindtap='btn9'>
+      <view class="innerCircle1" wx:if="{{labels9[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">9</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels9[k]==1||labels9[k]==2||labels9[k]==3||labels9[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">9</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">9</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+
+</view>
+</view>  
+
+<view class='container1'>
+  <view class='circleContainer'>
+    <view class="circle" bindtap='btn10'>
+      <view class="innerCircle1" wx:if="{{labels10[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">10</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels10[k]==1||labels10[k]==2||labels10[k]==3||labels10[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">10</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">10</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+
+    <view class="circle" bindtap='btn11'>
+      <view class="innerCircle1" wx:if="{{labels11[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">11</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels11[k]==1||labels11[k]==2||labels11[k]==3||labels11[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">11</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">11</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+  
+    <view class="circle" bindtap='btn12'>
+      <view class="innerCircle1" wx:if="{{labels12[k]==0}}" >
+        <view style="font-size:30px;font-weight:bold">12</view>
+        <view>正常</view>
+      </view>
+      <view class="innerCircle2" wx:elif="{{labels12[k]==1||labels12[k]==2||labels12[k]==3||labels12[k]==4}}">
+        <view style="font-size:30px;font-weight:bold">12</view>
+        <view>故障</view>
+      </view>
+      <view class="innerCircle1" wx:else>
+        <view style="font-size:30px;font-weight:bold">12</view>
+        <view>处理中</view>
+      </view>
+      
+    </view>
+
+</view>
+</view>  
+<!-- 轴承故障示警 -->
+<view wx:if="{{labels1[k]==1||labels1[k]==2||labels1[k]==3||labels1[k]==4}}">
+     <toast hidden="{{hidden}}" duration="1000">
+        1号轴承发生故障
+    </toast>
+</view>
+
+<view wx:elif="{{labels5[k]==1||labels5[k]==2||labels5[k]==3||labels5[k]==4}}">
+     <toast hidden="{{hidden}}" duration="1000">
+        5号轴承发生故障
+    </toast>
+</view>
+
+<view wx:elif="{{labels6[k]==1||labels6[k]==2||labels6[k]==3||labels6[k]==4}}">
+     <toast hidden="{{hidden}}" duration="1000">
+        6号轴承发生故障
+    </toast>
+</view>
+
+<view wx:elif="{{labels9[k]==1||labels9[k]==2||labels9[k]==3||labels9[k]==4}}">
+     <toast hidden="{{hidden}}" duration="1000">
+        9号轴承发生故障
+    </toast>
+</view>

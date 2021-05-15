@@ -1,0 +1,18 @@
+<swiper class="swi" indicator-dots >
+<swiper-item>
+  <view class="title3"  style="position:fixed; top:30px;left:23px">M01_F10工况运行状况</view>
+  <!-- 这里的style语句是控制组件到底部距离 -->
+  <image src="/images/1to4.png" class="echartContainer"> </image>
+</swiper-item>
+
+<swiper-item>
+  <view class="title3"  style="position:fixed; top:30px;left:23px">M07_F04工况运行状况</view>
+  <image src="/images/5to9.png" class="echartContainer"> </image>
+</swiper-item>
+
+<swiper-item>
+  <view class="title3"  style="position:fixed; top:30px;left:23px">M07_F10工况运行状况</view>
+  <image src="/images/9to12.png" class="echartContainer"> </image>
+</swiper-item>
+
+</swiper>
